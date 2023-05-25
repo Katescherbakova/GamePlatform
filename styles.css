@@ -1,0 +1,470 @@
+html, body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #eee;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+* {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer !important;
+}
+
+button, .button {
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background: #FA9021;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    height: 41px;
+    padding: 0 28px;
+}
+
+.container {
+    width: 1440px;
+    min-height: 100%;
+    background: linear-gradient(180.96deg, #0E0E0F 0.82%, #4A2800 129.1%);
+    backdrop-filter: blur(7px);
+}
+
+.header {
+    padding: 37px 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav__item:not(:last-child) {
+    margin-right: 88px;
+}
+
+.main-nav__item {
+    position: relative;
+}
+
+.main-nav__item.main-nav__item__selected::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39' height='4' viewBox='0 0 39 4' fill='none'%3E%3Crect width='31' height='4' rx='2' fill='%23DC7000'/%3E%3Crect x='34' width='5' height='4' rx='2' fill='%23DC7000'/%3E%3C/svg%3E");
+    display: block;
+    width: 22px;
+    height: 10px;
+    margin: 10px 5px 0 10px;
+    position: absolute;
+    top: 6px;
+    left: -25px;
+}
+
+.contact-us-link {
+    margin-left: 36px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 0 147px;
+    margin-bottom: -163px;
+}
+
+.our-works__label {
+    color: #E87D0E;
+}
+
+.our-works {
+    width: 40%;
+}
+
+.our-works__title {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px
+}
+
+.game-control-image {
+    height: 761px;
+    width: 929px;
+    position: fixed;
+    left: 664px;
+    top: 0;
+    z-index: -1;
+}
+
+.our-works__description {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px
+}
+
+.our-works__more-btn {
+    margin-top: 50px;
+    background: linear-gradient(92.89deg, rgba(255, 61, 0, 0.8) -6.75%, rgba(251, 158, 60, 0.8) 96.44%);
+    border-radius: 40px;
+}
+
+.trading-games {
+    margin-top: 178px;
+}
+
+.trading-games__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.more-btn {
+    height: 57px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+}
+
+.trading-games__gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.trading-games__card-followers {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.trading-games__card-followers-count {
+    font-size: 22px;
+    line-height: 41px;
+    margin-left: 9px;
+}
+
+.unrecognized-block {
+    margin-top: 129px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.spiderman_title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    margin-top: 67px;
+    margin-bottom: 32px;
+}
+
+.spiderman_description {
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.spiderman__img {
+    position: relative;
+    margin-top: 46px;
+    margin-bottom: 157px;
+}
+
+.spiderman__dots {
+    position: absolute;
+    top: -77px;
+    right: 125px;
+    z-index: -1;
+}
+
+.offers__container {
+    background-image: url("images/offers.png");
+    height: 881px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin-left: -147px;
+    margin-right: -147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offers__title {
+    width: 65%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    margin: 93px 0 25px 0;
+    text-align: center;
+}
+
+.offers__description {
+    width: 65%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 99px;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 62px;
+}
+
+.offer:not(:last-child) {
+    margin-right: 100px;
+}
+
+.offer__title {
+    margin: 30px 0 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.recent-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-projects__title {
+    margin: 148px 0 15px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+}
+
+.recent-projects__description {
+    margin-bottom: 71px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.recent-projects__gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recent-projects__img {
+    margin-bottom: 33px;
+}
+
+.recent-projects__img:not(:last-child) {
+    margin-right: 15px;
+}
+
+.recent-projects .more-btn {
+   margin-top: 39px;
+}
+
+.subscribe {
+    margin-bottom: 163px;
+}
+
+.subscribe__title {
+    margin: 105px 0 32px 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+}
+
+.subscribe__description {
+    margin-bottom: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.subscribe__form {
+    background: #1C140F;
+    border-radius: 15px;
+    padding: 40px 50px 42px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__form__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.subscribe__form__description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.subscribe__form-content {
+    max-width: 60%;
+}
+
+.subscribe__form__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    width: 385px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 6px;
+    background: #fff;
+    border-radius: 8px;
+    caret-color: black;
+    border: unset;
+    color: black !important;
+}
+
+.subscribe__form__input input,
+.subscribe__form__input input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    color: black;
+}
+
+input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #898989;
+}
+
+
+.subscribe__form__submit {
+    height: 37px;
+}
+
+.container-second {
+    background: linear-gradient(148.9deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
+    margin: 0 -147px;
+    padding: 0 147px;
+    padding-bottom: 163px;
+}
+
+
+.footer {
+    padding: 79px 120px 29px 101px;
+    background: #070707;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 56px;
+}
+
+.footer__bottom {
+    text-align: center;
+    padding-top: 29px;
+    border-top: 1px solid #D2D2D2;
+    margin-right: -120px;
+    margin-left: -101px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.footer__logo {
+    flex-grow: 1;
+}
+
+.footer__about-us {
+    flex-shrink: 0;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+.footer__about-us-title, .footer__contact-us-title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.footer__about-us-menu-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 186.3%;
+}
+
+.footer__contact-us {
+    flex-grow: 1;
+}
+
+.footer__contact-us-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 11px;
+}
+
+.footer__social-media {
+    flex-shrink: 0;
+    margin-left: 83px;
+}
+
+.footer__logo-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.footer__logo-text {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
